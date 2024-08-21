@@ -15,9 +15,11 @@
         <div class="content">
             <div class="board"></div>
             <div class="buttons">
-                <button>Negro</button>
-                <button>Blanco</button>
-                <button>Color aleatorio</button>
+                <button onclick="changeColor('black')">Negro</button>
+                <button onclick="changeColor('blue')">Azul</button>
+                <button onclick="changeColor('white')">Goma</button>
+                <button onclick="changeColor('random')">Color aleatorio</button>
+                <button onclick = "resetBoard()">Limpiar</button>
             </div>
             <div>
                 <input type="text" id = "inputSize" placeholder="Tamaño del cuaderno" value="16">
